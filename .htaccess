@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !^/admin
+RewriteCond %{REQUEST_URI} !^/admin/
+RewriteCond %{REQUEST_URI} !^/fckeditor/
+RewriteCond %{REQUEST_URI} !^/ckeditor/
+RewriteCond %{REQUEST_URI} !^/ckeditor1/
+RewriteCond %{REQUEST_URI} !^/pic/
+RewriteCond %{REQUEST_URI} !^/app/
+RewriteCond %{REQUEST_URI} !^/robots.txt
+RewriteCond %{REQUEST_URI} !^/sitemap.xml
+RewriteCond %{REQUEST_URI} !^/favicon.ico
+
+
+RewriteRule ^(.*)$ cms.php

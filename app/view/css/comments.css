@@ -1,0 +1,56 @@
+.hreview{
+	margin-top: 20px;
+	clear: both;	
+}
+
+.hreview .item{
+	display: none;
+}
+
+.hreview .num{
+	float: left;
+	width: 40px;
+	vertical-align: top;
+	padding: 0 15px 0 0;
+	font-size: 32px;
+	color: #dddddd;
+}
+
+.hreview .comment{
+	background-color: #f5f5f5;
+	color: #666666;
+	margin-bottom: 20px;
+	float: left;
+	padding: 5px 5px 20px 5px;
+	width: 300px;
+}
+
+.hreview .comment .reviewer{
+	color: #555555;
+	font-weight: bold;
+}
+
+.hreview .comment .dtreviewed{
+	font-size: 0.9em;
+	color: #777777;
+}
+
+.hreview .comment .summary{
+
+}
+
+.hreview .comment .description{
+	display: none;
+}
+
+.hreview .comment .rating{
+	display: none;
+}
+
+.add_comment{
+	clear: both;
+}
+
+.add_comment .form{
+	display: none;
+}

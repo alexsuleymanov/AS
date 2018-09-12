@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /cgi_bin/
+Disallow: /admin/
+Disallow: /tpl/
+Disallow: /search
+Disallow: /search/
+Disallow: /fckeditor/
+Disallow: /ckeditor/

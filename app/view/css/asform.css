@@ -1,0 +1,72 @@
+.asform{
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+}
+
+.asform div.row{
+	width: 100%;
+	padding: 0px 0px 15px 0px;
+	margin: 0px 0px 15px 0px;
+	clear: both;
+}
+
+.asform div.row dd{
+	float: left;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.asform div.row dt{
+	font-family: Arial;
+	font-size: 14px;
+	float: left;
+	width: 150px;
+	text-align: left;
+	padding: 0px;
+}
+
+.asform div.row dt label{
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+}
+
+.asform fieldset{
+	padding: 10px;
+	border: 0px;
+
+}
+
+.asform fieldset legend{
+	font-family: Arial;
+	font-size: 14px;
+	color: 010101;
+	font-weight: bold;
+}
+
+.asform .hint{
+	font-family: Arial;
+	font-size: 11px;
+	color: #999999;
+	padding-bottom: 10px;
+}
+
+.asform .errors{
+	color: #ff0000;
+}
+
+.asform .required{
+	padding-left: 10px;
+	background: transparent url('/app/view/img/required.gif') no-repeat center left;
+}
+
+.asform input{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+#asform_captcha {
+	width: 200px;
+	margin-top: 10px;
+}
